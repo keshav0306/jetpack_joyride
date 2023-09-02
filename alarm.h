@@ -1,0 +1,1 @@
+Object alarm_init();

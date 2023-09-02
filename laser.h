@@ -1,0 +1,1 @@
+Object laser_init();

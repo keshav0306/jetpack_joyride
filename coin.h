@@ -1,0 +1,1 @@
+Object coin_init();

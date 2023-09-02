@@ -1,0 +1,12 @@
+To compile this game,
+the files that need to be compiled are
+game.cpp object.cpp shader.cpp player.cpp coin.cpp laser.cpp coinbox.cpp laserbox.cpp textobject.cpp 
+
+We need to link the glad, freetype and the glfw3 libraries in order to compile this.
+
+run gcc game.cpp ... textobject.cpp -lglad -lfreetype -lglfw3
+These libraries must be installed and must be there where g++ can locate them.
+
+If you are on a Mac, then we need to use frameworks and add commands 
+-framework IOKit -framework OpenGL -framework -Cocoa
+along with the above command for compiling the game
